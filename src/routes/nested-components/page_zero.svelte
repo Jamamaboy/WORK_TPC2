@@ -50,12 +50,16 @@
 
 	button {
 		position: absolute;
-		/* font-size: 1px;	 */
 		width: 100vw;
 		height: 100vh;
 		background: none;
 		border: none;
 		object-fit: contain;
-		/* background-color: black; */
+		-webkit-tap-highlight-color: transparent;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		user-select: none;
+		outline: none;
+		appearance: none;
 	}
 </style>

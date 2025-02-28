@@ -48,6 +48,7 @@
 	onMount(() => {
 	});
 
+
 </script>
 
 <div class="container">
@@ -109,5 +110,11 @@
 		transition: background-color 0.3s;
 		align-self: center;
 		justify-self: center;
+		-webkit-tap-highlight-color: transparent;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		user-select: none;
+		outline: none;
+		appearance: none;
 	}
 </style>

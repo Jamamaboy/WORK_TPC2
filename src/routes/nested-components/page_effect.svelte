@@ -40,6 +40,12 @@
 		background-color: brown;
 		border: none;
 		object-fit: contain;
+		-webkit-tap-highlight-color: transparent;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		user-select: none;
+		outline: none;
+		appearance: none;
 
 	}
 	.space {
